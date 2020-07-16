@@ -1,0 +1,57 @@
+.col-sm {
+    background: #fafafa;
+    border-radius: 2px;
+    margin: 20px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.col-sm:hover {
+    box-shadow: 2px 2px 5px #a3a3a3;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    text-decoration: none;
+}
+.col-sm a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #24b3e3;
+}
+.row {
+    width: 100%;
+}
+.repo-name {
+    margin:10px;
+    padding: 10px;
+    height: 30%;
+}
+.repo-description {
+    height: 30%;
+    color:#615e5e;
+}
+.repo-footer {
+    height: 20%;
+    margin-bottom: 10%;
+}
+.repo-icon {
+    float: left;
+}
+.footer-item-left {
+    float: left;
+    margin: 20px;
+    margin-left: 20%;
+    color: #615e5e;
+}
+.footer-item-right {
+    float: right;
+    margin: 20px;
+    margin-right: 20%;
+}
+.star-count {
+    float:left;
+    margin-right: 10px;
+    color: #615e5e;
+}
+.w-100 {
+    margin: 20px;
+}
+
