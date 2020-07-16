@@ -12,9 +12,6 @@ img {
     border:7px solid #24b3e3;
     margin-top: 20px;
 }
-.row {
-
-}
 .col-md-1{
     background: #1f2c30;
     padding: 10px;
@@ -58,9 +55,25 @@ img {
     width:10%;
 }
 .location-icon {
-    float: left;
+    float: right;
     margin-right: 10px;
 }
 .location {
+    float: right;
+}
+.website-icon {
     float: left;
+    margin-right: 10px;
+}
+.website {
+    float: left;
+}
+.website a:hover {
+    text-decoration: underline;
+}
+.col-lg-6 a:link, a:visited, a:active {
+    color: #24b3e3;
+}
+.col-md-12 h2 {
+    margin: 10px;
 }

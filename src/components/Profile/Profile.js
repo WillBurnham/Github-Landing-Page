@@ -12,20 +12,30 @@ export default class Profile extends Component {
                 <center>
                     <div className="row">
                         <div className="col-md-12">
-                            <a href={html_url}>
+                            <a href={html_url} target="_blank">
                                 <h2>{user}</h2>
                             </a>
                         </div>
                     </div>
                 </center>
                 <center>
-                    <div className="centered-menu">
-                        <div className="row">
-                            <div className="col-xs">
+                    <div className="row align-items-start">
+                        <div className="col-lg-6">
+                            <div className="location">
+                                <p>{location}</p>
+                            </div>
+                            <div className="location-icon">
                                 <i className="fa fa-map-pin"/>
                             </div>
-                            <div className="col-xs">
-                                <p>{location}</p>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="website-icon">
+                                <i className="fa fa-share-alt"/>
+                            </div>
+                            <div className="website">
+                                <p><a href="https://Wburnham.herokuapp.com" target="_blank">
+                                    Wburnham.herokuapp.com
+                                </a></p>
                             </div>
                         </div>
                     </div>

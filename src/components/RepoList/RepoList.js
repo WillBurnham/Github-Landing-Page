@@ -10,7 +10,7 @@ export default class RepoList extends Component {
         repos.forEach((repo, idx) => {
             columns.push(
                 <div className="col-sm">
-                    <a href={repo.html_url}>
+                    <a href={repo.html_url} target="_blank">
                         <div className="repo-name">
                             <div className="repo-icon">
                                 <i className="fa fa-folder-open"/>
